@@ -1,2 +1,9 @@
-# Regression-and-time-series-analysis
-Regression and Time Series Analysis
+This project demonstrates applied statistical modeling and financial time series analysis using real-world datasets in R. It focuses on predictive modeling, validation, and trend analysis to extract actionable insights from structured and temporal data.
+
+The first task involved building a Multiple Linear Regression model using the Boston Housing dataset to predict median house prices (MEDV) based on socioeconomic and environmental factors. After conducting data quality checks (no missing values or duplicates), the dataset was split into 80% training and 20% testing sets.
+
+The regression model achieved strong explanatory power, with a training R² of 0.744 and a test R² of 0.719, indicating good generalization and minimal overfitting. Key predictors included average number of rooms (RM), lower-income population percentage (LSTAT), pollution levels (NOX), crime rate (CRIM), and pupil–teacher ratio (PTRATIO). The findings align with economic intuition: housing prices are strongly influenced by living conditions, socioeconomic status, and environmental quality.
+
+The second task focused on Time Series Analysis of Apple (AAPL) stock prices. The analysis included visualization of closing prices, computation of a 30-day moving average to smooth short-term volatility, and classical time series decomposition. Results revealed a strong long-term upward trend with moderate market-driven volatility and limited seasonal structure, as expected in daily financial data. The moving average effectively highlighted sustained bullish momentum.
+
+Overall, this project demonstrates proficiency in regression modeling, model evaluation (MSE, R²), train-test validation, financial time series analysis, and statistical interpretation. It reflects the ability to translate quantitative analysis into meaningful business and economic insights.
